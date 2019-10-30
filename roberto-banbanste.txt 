@@ -1,0 +1,104 @@
+<!-- reveiw questions to Submit in today's file firt-lastname.txt --> 
+<!--
+Copy the questions below into the firt-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+html with meaning, makes html readable
+    2. What is HTML used for? 
+sectioning out text for a webpage
+    3. What is an attribute and where do we put it? 
+attributes modify html elements
+    4. What is the h1 tag used for? How many times should I use it on a page?
+Main title of the page, should be used once
+    5. Name two tags that have required attributes
+anchor and form
+    6. What do we put in the head of our HTML document? 
+metadata
+    7. What is an id? 
+html attribute mainly used for navigation 
+    8. What elements can I add an id to? 
+all
+    9. How many times can I use the same id on a page?
+id should be used once per element
+    10. What is a class? 
+html attribute used for styleing
+    11. What elements can I add a class to? 
+all
+    12. How many times can I use the same class on a page? 
+as many as neeeded 
+    13. How do I get my link to open in a new tab?
+target="_blank"
+    14. What is the alt attribute used for? 
+describe images
+    15. How do I reference an id?
+#id_name
+    16. What is the difference between a section and a div
+section is more descriptive for peoples with disabilities
+    17. What is CSS used for? 
+style html
+    18. How to we select an element? Example - every h2 on the page
+h2 {}
+    19. What is the difference between a class and an id? - Give me an example of when I  might use each one
+id's are unique, used for same page linking, can be used for styling. classes used main for styling. both can be used as selectors
+    20. How do we select classes in CSS?
+.class_name
+    21. How do we select a p element with a single class of “human””?
+p.human {}
+    22. What is a parent child selector? When would this be useful? 
+selects all elements that are the direct children of the element. Styleing in bulk
+    23. How do you select all links within a div with the class of sidebar?
+.sidebar div {}
+    24. What is a pseudo selector?
+1 colon preceding the selector, extra css functions for selecting/styling elements
+    25. What do we use the change the spacing between lines?
+line-height
+    26. What do we use to change the spacing between letters?
+letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+text-transform: uppercase; text-transform: lowercase; text-transform: capitalize;
+    28. How do I add a 1px border around my div that is dotted and black?
+border: dotted 1px #000;
+    29. How do I select everything on the page? 
+*{}
+    30. How do I write a comment in CSS?
+/* like this */
+    31. How do I find out what file I am in, when I am using the command line? 
+it says so
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+rm file_name, removes file completely
+    34. Why should I use version control? 
+debugging, colaboration.
+    35. How often should I commit to github?
+periodically, every 20min.
+    36. What is the command we would use to push our repo up to github? 
+git push or git push origin -u branch_name
+    37. Walk me through Lambda's git flow. 
+Student will create OWN version of Repo (Fork)
+Student will add TL as a collaborator
+Student then will Clone Repo
+Student will then create a branch (on which the student will implement the project) git checkout -b 'firstName-lastName'
+Student will then submit their PR into the new branch.
+Student will use their own student fork as the base (compare across forks).
+Student will add their TL as a reviewer on the PR
+TL then will count the HW as done by merging the HW back into master “STUDENT FORK”.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+block spans the width of the page
+    2. What happens when an element is positioned absolutely? 
+it is removed from the normal document flow and it is positioned in an area set relative to the bounds of the window 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+height:100%;
+width: __px
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+h1, p
+span, b
+button
+    5. In your own words, explain the box model. What is the fix for the box model? 
+design of elements in html. includes the content and folowing boxes around it: content, padding, border, margin
+
+
+   --> 
